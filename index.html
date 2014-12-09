@@ -4,6 +4,9 @@
 <head>
     <meta name="google-site-verification" content="Z-sBx9d3kgXBU00XEDE6krv3-hik_uNqF2-amWunO3M" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css?<?php echo time(); ?>" />
+    <link href="css/flat-ui.min.css" rel="stylesheet">
+    <title>EVE-Missions</title>
 </head>
 
 <body>
@@ -16,18 +19,34 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">EVE Missions</a>
+                    <a class="navbar-brand" href="#">eve missions</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Current Missions</a></li>
+                        <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Missions</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Top Viewed</a>
+                            </li>
+                            <li><a href="#">Top Rated</a>
+                            </li>
+                            <li><a href="#">Newest</a>
+                            </li>
+                            <li><a href="#">Staff Picks</a>
+                            </li>
+                        </ul>
+                    </li>
                         <li><a href="#">Mission Creation</a></li>
                         <li><a href="#">Help</a></li>
                     </ul>
                 </div>
         </div>
     </nav>
+    <div class="container-fluid jumbotron text-center">
+        <h1 style="font-family: Eve !important">eve-missions</h1>
+        <p></p>
+    </div>
 <div class="container">
     <p>We're still working on the site, please check <a href="http://www.reddit.com/r/evemissions">the subreddit</a> for news and updates. If you are interested in helping out for free, please fill out <a href="http://goo.gl/forms/lbtmOQA2JQ">the form</a>. I hope to see you all soon!</p>
 </div>
@@ -39,5 +58,3 @@
 </body>
 
 </html>
-
-

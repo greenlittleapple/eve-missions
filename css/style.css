@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Eve';
+    src: url(../fonts/eve.ttf)
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    background-color: #FFF;
+    color: #000 !important;
+    font-weight: 100;
+    overflow: hidden;
+    padding-top: 65px;
+}
+
+body,
+html {
+    height: 100%
+}
+
+.navbar-inverse {
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    font-family: Eve !important;
+}
