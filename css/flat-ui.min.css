@@ -3032,8 +3032,6 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     border-top:8px solid;
     border-right:6px solid transparent;
     border-left:6px solid transparent;
-    -webkit-transition:border-color .25s,color .25s;
-    transition:border-color .25s,color .25s
 }
 
 .dropdown-menu,.select2-drop {
