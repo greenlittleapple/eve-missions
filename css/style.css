@@ -65,7 +65,7 @@ body {
 .jumbotron {
     font-family: eve_alphabold !important;
     padding-top: 120px;
-    background-image: url(http://cdn1.eveonline.com/www/newssystem/media/66669/1/Thera.png);
+    background-image: url(/img/Thera.png);
     background-size: 100%;
     padding-bottom: 125px;
     background-repeat: no-repeat;
