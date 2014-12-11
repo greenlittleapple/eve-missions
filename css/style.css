@@ -14,7 +14,7 @@ body {
     background-color: #FFF;
     color: #000 !important;
     font-weight: 100;
-    overflow: hidden;
+    overflow: scroll;
 }
 .navbar-inverse {
     background-color: #fff !important;
