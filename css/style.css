@@ -38,6 +38,7 @@ body {
     color: #0099CC!important;
     background-color: rgba(0, 0, 0, 0)!important;
 }
+.navbar-brand,
 .navbar-nav>li>a,
 .navbar-inverse .navbar-toggle {
     line-height: 120px!important;
@@ -54,6 +55,12 @@ body {
 }
 .navbar-inverse .navbar-toggle:hover {
     color: #0099CC;
+}
+.navbar-brand {
+    font-family: eve_alphabold !important;
+}
+.navbar-brand:hover {
+    color: #0099CC !important;
 }
 .dropdown-menu {
     margin-top: 7px !important;
