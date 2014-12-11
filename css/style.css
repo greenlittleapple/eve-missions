@@ -50,19 +50,15 @@ body {
     font-weight: 300;
     font-size: 20px!important;
 }
-
 .navbar-inverse .navbar-toggle:before {
-color: #000 !important;
+    color: #000 !important;
 }
-
 .navbar-inverse .navbar-toggle:hover {
-color: #0099CC;
+    color: #0099CC;
 }
-
 .navbar-brand {
     font-family: eve_alphabold !important;
 }
-
 .navbar-brand:hover {
     color: #0099CC !important;
 }
@@ -70,26 +66,25 @@ color: #0099CC;
     margin-top: 7px !important;
     background-color: #fff !important;
 }
-
 .dropdown-menu > li > a {
     color: #000 !important;
 }
-
 .jumbotron {
     font-family: eve_alphabold !important;
     padding-top: 120px;
-    background-color: #02265A;
+    background-image: url(http://cdn1.eveonline.com/www/newssystem/media/66669/1/Thera.png);
+    background-size: 100%;
     padding-bottom: 125px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
 }
-
 .jumbotron > * {
     color: #fff !important;
 }
-
 .modal-backdrop {
     z-index: 1020 !important;
 }
-
 .modal-dialog {
     z-index: 1040 !important;
 }
