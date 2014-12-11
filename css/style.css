@@ -1,14 +1,9 @@
 @font-face {
     font-family: 'eve_alphabold';
     src: url('/fonts/eve-webfont.eot');
-    src: url('/fonts/eve-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/eve-webfont.woff2') format('woff2'),
-         url('/fonts/eve-webfont.woff') format('woff'),
-         url('/fonts/eve-webfont.ttf') format('truetype'),
-         url('/fonts/eve-webfont.svg#eve_alphabold') format('svg');
+    src: url('/fonts/eve-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/eve-webfont.woff2') format('woff2'), url('/fonts/eve-webfont.woff') format('woff'), url('/fonts/eve-webfont.ttf') format('truetype'), url('/fonts/eve-webfont.svg#eve_alphabold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -22,34 +17,67 @@ body {
     overflow: hidden;
     padding-top: 65px;
 }
-
 body,
 html {
     height: 100%
 }
-
 .navbar-inverse {
-    background-color: #000 !important;
+    background-color: #fff !important;
     margin-bottom: 0px !important;
 }
-
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:hover,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.dropdown-menu li.active>a,
+.dropdown-menu li.selected>a,
+.dropdown-menu li.active>a.highlighted,
+.dropdown-menu li.selected>a.highlighted,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.dropdown-toggle .caret:hover {
+    color: #0099CC!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.navbar-brand,
+.navbar-nav>li>a,
+.navbar-inverse .navbar-toggle {
+    line-height: 120px!important;
+    height: 120px!important;
+    padding-top: 0!important;
+    color: #000 !important;
+}
 .navbar-inverse .navbar-nav > li > a {
     font-weight: 300;
     font-size: 20px!important;
-    color: white !important;
 }
-
 .navbar-brand {
     font-family: eve_alphabold !important;
 }
 
+.navbar-brand:hover {
+    color: #0099CC !important;
+}
 .dropdown-menu {
     margin-top: 7px !important;
-    background-color: black !important;
+    background-color: #fff !important;
+}
+
+.dropdown-menu > li > a {
+    color: #000 !important;
 }
 
 .jumbotron {
     font-family: eve_alphabold !important;
-    padding-top: 50px;
+    padding-top: 120px;
+    background-color: #02265A;
     padding-bottom: 125px;
+}
+
+.jumbotron > * {
+    color: #fff !important;
 }
