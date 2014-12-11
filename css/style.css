@@ -81,3 +81,11 @@ html {
 .jumbotron > * {
     color: #fff !important;
 }
+
+.modal-backdrop {
+    z-index: 1020 !important;
+}
+
+.modal-dialog {
+    z-index: 1040 !important;
+}
