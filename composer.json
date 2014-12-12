@@ -1,0 +1,19 @@
+{
+  "name": "eve-missions/eve-missions",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "greenlittleapple",
+      "email": "greenlittleapple@gmail.com"
+    },
+    {
+      "name": "EddBC",
+      "email": "yddbec@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/symfony": "2.5.*"
+  }
+}
