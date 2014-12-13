@@ -72,11 +72,12 @@ body {
 .jumbotron {
     font-family: eve_alphabold !important;
     padding-top: 120px;
-    background-image: url(/img/Rhea.jpg?v=1);
+    background: url(/img/Rhea_opt.jpg?v=1);
     padding-bottom: 125px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: left;
+    background-position: center;
 }
 .jumbotron > * {
     color: #fff !important;
@@ -87,6 +88,9 @@ body {
 .modal-dialog {
     z-index: 1040 !important;
 }
-@media (min-width: 991px) .navbar-brand {
-    display:none;
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    margin-right: -10px;
 }
