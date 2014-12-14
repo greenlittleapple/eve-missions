@@ -69,9 +69,9 @@ server {
 server {
         listen 80;
         server_name test.eve-missions.com;
-
         index index.html;
-
+        error_page 404 /404.html;
+	error_page 403 /403.html;
         root /var/www/eve-missions.com/dev;
 
         access_log /var/log/nginx/eve-missions.com/test.access_log main;
@@ -87,6 +87,7 @@ server {
                 fastcgi_index index.php;
                 include fastcgi_params;
         }
+        
 }
 
 server {
