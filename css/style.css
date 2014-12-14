@@ -68,6 +68,7 @@ body {
 }
 .dropdown-menu > li > a {
     color: #000 !important;
+    padding: 6px 9px !important;
 }
 .jumbotron {
     font-family: eve_alphabold !important;
@@ -79,6 +80,14 @@ body {
     background-attachment: scroll;
     background-position: center;
 }
+
+.jumbotron-404 {
+    font-family: eve_alphabold !important;
+    padding-top: 120px;
+    color: white;
+    padding-bottom: 125px;
+}
+
 .jumbotron > * {
     color: #fff !important;
 }
@@ -93,4 +102,8 @@ body {
     width: auto !important;
     overflow-x: hidden !important;
     margin-right: -10px;
+}
+.dropdown-menu li:first-child>a {
+    border-radius: 4px !important;
+    padding: 6px 9px !important;
 }
