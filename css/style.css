@@ -60,7 +60,11 @@ body {
     font-family: eve_alphabold !important;
 }
 .navbar-brand:hover {
+<<<<<<< HEAD
     color: #000 !important;
+=======
+    color: #0099CC !important;
+>>>>>>> e2f1f0e0deb47e5f470000345020f3f1165c827d
 }
 .dropdown-menu {
     margin-top: 7px !important;
@@ -106,6 +110,7 @@ body {
 .dropdown-menu li:first-child>a {
     border-radius: 4px !important;
     padding: 6px 9px !important;
+<<<<<<< HEAD
 }
 
 .goback {
@@ -128,4 +133,6 @@ body {
 
 .gohome:hover {
     color: #ff4c4c;
+=======
+>>>>>>> e2f1f0e0deb47e5f470000345020f3f1165c827d
 }
