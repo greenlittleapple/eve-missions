@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'eve_alphabold';
+    src: url('/fonts/eve-webfont.eot');
+    src: url('/fonts/eve-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/eve-webfont.woff2') format('woff2'), url('/fonts/eve-webfont.woff') format('woff'), url('/fonts/eve-webfont.ttf') format('truetype'), url('/fonts/eve-webfont.svg#eve_alphabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    background-color: #FFF;
+    color: #000 !important;
+    font-weight: 100;
+    overflow: scroll;
+}
+.navbar-inverse {
+    background-color: #fff !important;
+    margin-bottom: 0px !important;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:hover,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.dropdown-menu li.active>a,
+.dropdown-menu li.selected>a,
+.dropdown-menu li.active>a.highlighted,
+.dropdown-menu li.selected>a.highlighted,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.dropdown-toggle .caret:hover {
+    color: #0099CC!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.navbar-brand,
+.navbar-nav>li>a,
+.navbar-inverse .navbar-toggle {
+    line-height: 120px!important;
+    height: 120px!important;
+    padding-top: 0!important;
+    color: #000 !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: 300;
+    font-size: 20px!important;
+}
+.navbar-inverse .navbar-toggle:before {
+    color: #000 !important;
+}
+.navbar-inverse .navbar-toggle:hover {
+    color: #0099CC;
+}
+.navbar-brand {
+    font-family: eve_alphabold !important;
+}
+.navbar-brand:hover {
+    color: #000 !important;
+}
+.dropdown-menu {
+    margin-top: 7px !important;
+    background-color: #fff !important;
+}
+.dropdown-menu > li > a {
+    color: #000 !important;
+    padding: 6px 9px !important;
+}
+.jumbotron {
+    font-family: eve_alphabold !important;
+    padding-top: 120px;
+    background: url(/img/Rhea_opt.jpg?v=1);
+    padding-bottom: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.jumbotron-404 {
+    font-family: eve_alphabold !important;
+    padding-top: 120px;
+    color: white;
+    padding-bottom: 125px;
+}
+
+.jumbotron > * {
+    color: #fff !important;
+}
+.modal-backdrop {
+    z-index: 1020 !important;
+}
+.modal-dialog {
+    z-index: 1040 !important;
+}
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    margin-right: -10px;
+}
+.dropdown-menu li:first-child>a {
+    border-radius: 4px !important;
+    padding: 6px 9px !important;
+}
+
+.goback {
+    color: green;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 30px;
+}
+
+.goback:hover {
+    color: #27AE60;
+}
+
+.gohome {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: red;
+    font-size: 30px;
+}
+
+.gohome:hover {
+    color: #ff4c4c;
+}
